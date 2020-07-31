@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Link to="/">Home</Link>
+        <Link to="/">Fib Calc version 2</Link>
         <Link to="/otherpage">Other Page</Link>
         <Route exact path="/" component={Fib} />
         <Route path="/otherpage" component={OtherPage} />
